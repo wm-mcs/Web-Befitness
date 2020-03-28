@@ -1,0 +1,223 @@
+  .logo-float-easy-socio-portada{
+  
+  position: absolute;  
+  display: block;
+  height: 35px;
+  bottom: 10%;
+  right: 4%;
+}
+
+.contiene-presentacion{
+  width: 100%;
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(flex-start);
+  @include justify-content(space-around); 
+  @include flex-wrap(wrap); 
+}
+
+   .contiene-cada-div-presentacion{
+    width: 98%;
+    margin-top: 4px;    
+    padding: 0 10px;
+    
+   }
+
+   .ajuste-de-posicion-para-presentacion{
+    @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(flex-start);
+   }
+
+    .contiene-h1-presentacion{
+      letter-spacing: -2;
+      font-family: $font-primary;
+      text-align: left;
+      width: 100%;
+      font-size: 45px;
+      font-weight: bold;
+      
+
+    }
+
+    .boton-contactar-presentacion{
+      font-family: $font-primary;
+      font-size: 22px;
+      padding:5px 35px;
+      text-align: center;      
+      color:$color-grey3;
+      border:solid 1px $color-grey3;
+      cursor: pointer;
+    }
+    .boton-contactar-presentacion:hover{
+      background-color: $color-3;
+      color:$color-white;
+      border:solid 1px $color-white;
+
+    }
+
+    .boton-contactar-presentacion-blanco{
+      font-family: $font-primary;
+      font-size: 22px;
+      padding:5px 35px;
+      text-align: center;      
+      color:$color-white;
+      border:solid 1px $color-white;
+      cursor: pointer;
+    }
+    .boton-contactar-presentacion-blanco:hover{
+      background-color: $color-white;
+      color:$color-3;
+      
+    }
+
+    .contiene-p-presentacion{
+      font-size: 14px;
+      
+      letter-spacing: 1px;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 40px;
+
+    }
+
+
+.presentacion-imagen-paralax{
+/* The image used */
+  background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-buildings-estudio-de-abogados.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.presentacion-imagen-secundaria-paralax{
+  /* The image used */
+  background-image: url("../../imagenes/PaginasPersonalizadas/fabian-delpino-abogado-de-uruguay.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.presentacion-imagen-paralax-prueba{
+  /* The image used */
+  background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-buildings-estudio-de-abogados-2.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.imagen-medio-de-web{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position:relative;
+}
+
+
+    .contiene-todo-image-centrada{
+      width: 100%;
+      position:relative;
+    }
+   
+
+       .sub-contiene-texto-imagen-medio{
+         @include flexbox;       
+         @include flex-direction(column);
+         @include align-items(flex-start);
+         width: 80%;
+         position:absolute;
+         position: absolute;
+         bottom: 40px;
+         left: 40px; 
+       }
+
+
+           .contiene-texto-imagen-medio-texto{
+            font-size: 14px;
+            /* margin-bottom: 40px; */
+            text-align: left;
+            color: #fff;
+            width: 300px;
+           }
+
+              .contiene-texto-imagen-medio-logo{
+                height: 80px;
+              }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+  .logo-float-easy-socio-portada{
+  
+  position: absolute;  
+  display: block;
+  height: 40px;
+  bottom: 10%;
+  right: 10%;
+}
+
+.contiene-cada-div-presentacion{
+    width: 49.5%;
+}
+
+.contiene-h1-presentacion{ 
+  text-align: right;  
+  width: 70%;
+ }
+
+ .ajuste-de-posicion-para-presentacion{    
+    @include align-items(flex-end);
+   }
+
+    .contiene-p-presentacion{    
+    margin-top: 0px;
+    width: 70%;
+    
+    
+    }
+
+
+}
+
+@media (min-width: $BrackPoint-Tercer){
+
+.logo-float-easy-socio-portada{
+  
+  
+}
+
+
+
+}

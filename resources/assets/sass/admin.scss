@@ -1,0 +1,37 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_colores_y_fuentes";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_botones";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_mediCueris";
+@import "resources/assets/sass/plugins/Flickity"; 
+@import "resources/assets/sass/plugins/Tooltipster"; 
+@import "resources/assets/sass/plugins/Plug-bootstrap-fileinput";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Plug-flex"; 
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_clases_pre_armadas";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Recets";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_normalice";
+
+
+
+@import "resources/assets/sass/Admin/formularios/formulario_estilos";
+@import "resources/assets/sass/Admin/formularios/estilo_de_listas";
+
+@import "resources/assets/sass/Admin/Home_Entidades/layoute_general";
+@import "resources/assets/sass/Admin/Home_Entidades/Empresa";
+@import "resources/assets/sass/Admin/Home_Entidades/home";
+/*@import "resources/assets/sass/Admin/Home_Entidades/marcas";*/
+@import "resources/assets/sass/Admin/Home_Entidades/principal";
+@import "resources/assets/sass/Admin/Home_Entidades/Users";
+
+
+
+
+//Errores
+@import "resources/assets/sass/Estilo/Errores/Errores";
+
+
+//Alerts
+@import "resources/assets/sass/Estilo/Alerts/aviso_Verifica_Email";
+@import "resources/assets/sass/Estilo/Alerts/alert_status";
+
+

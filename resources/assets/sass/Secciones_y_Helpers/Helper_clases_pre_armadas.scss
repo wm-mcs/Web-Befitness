@@ -1,0 +1,218 @@
+.flex-row-center{
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(center); 
+}
+
+.flex-row-column{
+  @include flexbox;       
+  @include flex-direction(column);
+  @include align-items(center); 
+}
+
+.flex-justifice-space-around{
+  @include justify-content(space-around);
+}
+
+.flex-wrap{
+  @include flex-wrap(wrap); 
+}
+
+
+
+/* CLASES DE TAMAÑO */
+.get_width_100{
+  width:100%;
+}
+
+.get_height_100{
+  height:100%;
+}
+
+
+
+/* CLASES DE COLOR DE FONDO */
+.BackgroundPrimary{
+  background-color: $color-3; 
+}
+
+.BackgroundOscuro{
+  background-color: $color-grey3; 
+}
+.BackgroundGris{
+  background-color: $color-grey1; 
+}
+
+
+/* B o r d e s */
+.helper-border-top{
+  border-top:solid 1px $color-gris-lineas;
+}
+
+/* CLASES BOTONES */
+.boton-simple{
+  background-color: $color-3; 
+  color:white;
+  padding: 20px 35px;
+  border-radius: 4px;
+  font-size:30px; 
+  cursor: pointer;
+  font-weight:bold;
+  font-family: arial;
+}
+.boton-simple:hover{
+  background-color: $color-3-primary_hover; 
+} 
+
+
+.previo-boton{
+  margin-right: 10px;
+  font-size: 30px;
+  padding:10px;
+}
+
+.img-previa-boton{
+  height: 60px;
+  width: auto;
+  margin:0 10px;
+   border-radius:100%;
+}
+
+
+
+
+
+
+
+/* CLASES DE TEXTO */
+
+.text-bold{
+  font-weight: bold;
+}
+.text-color-primary{
+  color: $color-3;
+}
+
+.text-color-black{
+  color: $color-negro-para-textos;
+}
+
+.helper-aumenta-texto{
+  font-size:1.2em;
+}
+
+.helper-reduce-texto{
+  font-size:0.7em;
+}
+
+.espacio-letras{
+  letter-spacing: 2px;
+  font-family: arial;
+  margin-bottom: 8px;
+}
+
+.espacio-letras-chico{
+  letter-spacing: 1px;
+  font-family: arial;
+  margin-bottom: 8px;
+}
+
+/* colores personalizados */
+.color-text-gris{
+  color: $color-gris-text;
+}
+
+/* colores personalizados */
+.color-text-white{
+  color:  $color-white;
+}
+
+.color-text-black{
+  color:  $color-grey3;
+}
+
+/*color-texto-verde-success*/
+.color-text-success{
+  color:$color-verde-texto-success;
+}
+
+.font-primary{
+  font-family:$font-primary;
+}
+
+.font-secondary{
+  font-family:$font-secondary;
+}
+
+
+.font-size-h1{
+
+}
+
+.font-size-h2{
+
+}
+
+
+
+
+
+
+
+/* clases para mostrar o no */
+.no-mostrar{
+  display:none;
+}
+
+.mostrar-solo-mobil{
+
+}
+
+.no-mostrar-solo-mobil{
+display: none;
+}
+
+
+/*simula un link*/
+.simula_link{
+  cursor:pointer;
+  color:  $color-3;
+}
+
+.simula_link:hover{
+  color:$color-3-primary_hover;
+}
+
+.helper_cursor_pointer{
+  cursor:pointer;
+}
+
+.helper_max_width_100{
+  max-width: 100%;
+}
+
+
+
+.helper-relative{
+  position:relative;
+}
+
+.helper-border-radius-16{
+  border-radius: 16px;
+}
+
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+.mostrar-solo-mobil{
+  display: none;
+}
+
+.no-mostrar-solo-mobil{
+ display: block;
+}
+
+
+
+}  

@@ -1,0 +1,85 @@
+
+$color-3:#4b4b4b; /* institucional PRINCIPAL */
+$color-3-primary_hover:#cdb198;
+$color-2:#cecdcc; /* institucional OSCURO -  */
+
+
+$color-2semilight:#535BCF;
+$color-2light:#535BCF; /* para textos de baja relevancia que están sobre fondo oscuro (como en el footer) */
+$color-2superlight:#535BCF;
+
+
+$color-3dark:#917e4b; /* para interacciones dinámicas del color-3 como [hover] o [active] */
+/*$color-3light:#e5d8bd;*/ /* para interacciones dinámicas del color-3 como [hover] o [active] */
+$color-3light:$color-3-primary_hover; /* probando uno mas oscurito */
+$color-3superlight:$color-3-primary_hover; /* para backgrounds de bloques de texto en instancia de hover) */
+$color-3hyperlight:$color-3-primary_hover;
+
+
+
+$color-gris-text:#b4b4b4 ;
+$color-gris-background: #cecdcc;
+
+$color-gris-lineas: #ffefef;
+
+/* COLORES GENERALES */
+
+$color-grey0:#f8f8f8; /*gris SUPER claro (solo para líneas divisoras de relevancia baja o backgrounds de bloques de texto)*/
+$color-grey1:#CCCCCC; /*gris más claro (para párrafos y otras cosas)*/
+$color-grey2:#1A1A1A; /*gris medio (para títulos por ejemplo)*/
+$color-grey3:#4D4D4D; /*gris más oscuro (para backgrounds por ejemplo)*/
+
+$color-white:#F2F2F2; /*usamos esto en lugar de "white" por si decidimos cambiarlo todos los blancos más adelante*/
+$color-black:#101111; /*misma razón, pero para el negro */
+
+
+
+$Color-texto-gris-Mercadolibre: $color-gris-text;
+$Color-Gris-Claro-Para-Bordes:  $color-gris-lineas;
+
+$Color-Gris-Claro: #EFEEEE;
+$Color-Gris-CasiBlanco:#FDF9F9;
+
+$Color-Gris-Plata: #c2c2c2 ;
+$Color-Gris-Claro-Para-Bordes: #dfdfdf;
+
+$color-negro-para-textos:#5b5b5b;
+
+/*verdes*/
+$color-verde-texto-success:#4BB543;
+
+
+/*Colores Rojos*/
+$Color-Rojo-Oferta-MercadoLibre: #900;
+$Color-Rojo-Cancelar: #FF0000;
+$Color-Rojo-Texto-Error: #B40404;
+$Color-Errors-BG: #FCB6B6;
+$Color-Rosado-Active-Cancelar-Bg:#FDB6BF ;
+$Color-Verde-Super-Claro:#DFF2BF ;
+
+
+/*alertas y errores*/
+$Color-Amarill-warning: #fff0ba;
+
+$Color-Texto-Warning:#aa8749;
+
+$Color-Verde-Google: #006621;
+
+
+
+
+/* $font-primary:'Merriweather', 'Helvetica Neue', Arial, sans-serif ; */
+$font-primary: Cambria, Georgia, serif;  
+$font-secondary: 'Raleway', sans-serif;
+
+
+
+
+/* fuente sociales */
+
+@font-face {
+font-family: 'Social-Media-Circled'; /* Nombre que va a tener esa font*/
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Social-Media-Circled'), url('../fonts/Social-Media-Circled.otf') format('truetype');
+}
